@@ -281,16 +281,16 @@ docker image rm opensecurity/mobile-security-framework-mobsf
 Install:
 
 ```fundamental
-docker pull fsecurelabs/drozer
+docker pull drozerdocker/drozer
 ```
 
 Run:
 
 ```fundamental
-docker run -it --rm --name drozer fsecurelabs/drozer
+docker run -it --rm --name drozer drozerdocker/drozer
 ```
 
-Download [Drozer Agent](https://github.com/WithSecureLabs/drozer-agent/releases) and install it either manually or by using [ADB](#android-debug-bridge-adb).
+Download [Drozer Agent](https://github.com/ReversecLabs/drozer-agent/releases) and install it either manually or by using [ADB](#android-debug-bridge-adb).
 
 Uninstall:
 
@@ -969,7 +969,7 @@ Useful resources:
 * [dweinstein/awesome-frida](https://github.com/dweinstein/awesome-frida)
 * [interference-security/frida-scripts](https://github.com/interference-security/frida-scripts)
 * [m0bilesecurity/Frida-Mobile-Scripts](https://github.com/m0bilesecurity/Frida-Mobile-Scripts)
-* [WithSecureLabs/android-keystore-audit](https://github.com/WithSecureLabs/android-keystore-audit)
+* [ReversecLabs/android-keystore-audit](https://github.com/ReversecLabs/android-keystore-audit)
 
 List processes:
 
@@ -1550,7 +1550,7 @@ Production app (i.e., release build) should not be debuggable.
 Vulnerable apps for learning purposes:
 
 * [payatu/diva-android](https://github.com/payatu/diva-android)
-* [WithSecureLabs/sieve](https://github.com/WithSecureLabs/sieve)
+* [ReversecLabs/sieve](https://github.com/ReversecLabs/sieve)
 * [satishpatnayak/AndroGoat](https://github.com/satishpatnayak/AndroGoat)
 * [dineshshetty/Android-InsecureBankv2](https://github.com/dineshshetty/Android-InsecureBankv2)
 * [ctf.hpandro.raviramesh.info](https://ctf.hpandro.raviramesh.info)
